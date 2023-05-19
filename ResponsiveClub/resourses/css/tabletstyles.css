@@ -1,0 +1,53 @@
+@media only screen and (min-width: 481px) and (max-width: 1007px) {
+    /*Header*/
+    header img {
+        margin-left: 28%;
+    }
+    
+    /*Nav*/
+    nav ul li {
+        display: inline-block;
+        border-radius: 1.0em;
+        min-width: 10%;
+        box-shadow: 0.5em 0.5em 0.5em grey;
+        padding: 0.65em;
+        margin: 1rem;
+    }
+
+    /*Main*/
+    .list {
+        width: 32%;
+    }
+    
+    h2, h3, h4 {
+        margin: 0.5rem;;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3, h4 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        margin-left: 2.5rem;
+    }
+    
+    #image2 {
+        display: none;
+    }
+
+    /*Quote*/
+    #quote {
+        padding: 1.75rem;
+        margin: 1rem auto;
+    }
+
+    /*Footer*/
+    .footer h2 {
+        font-size: 1.75rem;
+        text-align: center;
+    }
+}

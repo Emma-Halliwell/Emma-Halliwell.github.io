@@ -1,0 +1,53 @@
+@media only screen and (max-width: 480px) {
+    /*Header*/
+    header img {
+        margin-left: 28%;
+    }
+    
+    /*Nav*/
+    nav ul li {
+        border-radius: 1.0em;
+        min-width: 10%;
+        box-shadow: 0.5em 0.5em 0.5em grey;
+        padding: 0.65em;
+        margin: 1rem;
+    }
+
+    /*Main*/
+    h2, h3, h4 {
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    .list {
+        width: 45%;
+    }
+    .list ul li{
+        width: 50%;
+    }
+
+    #image1 {
+        display: none;
+    }
+    
+    #image2 {
+        display: none;
+    }
+
+    /*Quote*/
+    #quote {
+        padding: 1.25rem;
+        margin: 1rem auto;
+    }
+
+    /*Photo*/
+    #photo {
+        display: none;
+    }
+
+    /*Footer*/
+    .footer h2 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+}
